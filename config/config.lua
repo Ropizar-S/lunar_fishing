@@ -29,7 +29,7 @@ Config.fish = {
 
 ---@type FishingRod[]
 Config.fishingRods = {
-    { name = 'basic_rod', price = 1000, minLevel = 1, breakChance = 20 },
+    { name = 'basic_rod', price = 229, minLevel = 1, breakChance = 20 },
     { name = 'graphite_rod', price = 2500, minLevel = 2, breakChance = 10 },
     { name = 'titanium_rod', price = 5000, minLevel = 3, breakChance = 1 },
 }
