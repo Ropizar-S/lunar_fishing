@@ -171,7 +171,7 @@ lib.callback.register('lunar_fishing:itemUsed', function(bait, fish)
             interval = nil
         end
 
-        if not wait(math.random(10000, 20000)) then return end
+        if not wait(math.random(20000, 25000)) then return end
 
         local success = lib.skillCheck(fish.skillcheck, { 'e' })
 
